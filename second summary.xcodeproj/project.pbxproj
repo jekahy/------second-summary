@@ -1,0 +1,236 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F28B74B614E807BD00F01F5C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F28B74B514E807BD00F01F5C /* Foundation.framework */; };
+		F28B74B914E807BD00F01F5C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F28B74B814E807BD00F01F5C /* main.m */; };
+		F28B74BD14E807BD00F01F5C /* second_summary.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = F28B74BC14E807BD00F01F5C /* second_summary.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F28B74AF14E807BD00F01F5C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				F28B74BD14E807BD00F01F5C /* second_summary.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F28B74B114E807BD00F01F5C /* second summary */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "second summary"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F28B74B514E807BD00F01F5C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F28B74B814E807BD00F01F5C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F28B74BB14E807BD00F01F5C /* second summary-Prefix.pch */ = {isa = PBXFileReference; path = "second summary-Prefix.pch"; sourceTree = "<group>"; };
+		F28B74BC14E807BD00F01F5C /* second_summary.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = second_summary.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F28B74AE14E807BD00F01F5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F28B74B614E807BD00F01F5C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F28B74A614E807BD00F01F5C = {
+			isa = PBXGroup;
+			children = (
+				F28B74B714E807BD00F01F5C /* second summary */,
+				F28B74B414E807BD00F01F5C /* Frameworks */,
+				F28B74B214E807BD00F01F5C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F28B74B214E807BD00F01F5C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F28B74B114E807BD00F01F5C /* second summary */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F28B74B414E807BD00F01F5C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F28B74B514E807BD00F01F5C /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F28B74B714E807BD00F01F5C /* second summary */ = {
+			isa = PBXGroup;
+			children = (
+				F28B74B814E807BD00F01F5C /* main.m */,
+				F28B74BC14E807BD00F01F5C /* second_summary.1 */,
+				F28B74BA14E807BD00F01F5C /* Supporting Files */,
+			);
+			path = "second summary";
+			sourceTree = "<group>";
+		};
+		F28B74BA14E807BD00F01F5C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F28B74BB14E807BD00F01F5C /* second summary-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F28B74B014E807BD00F01F5C /* second summary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F28B74C014E807BD00F01F5C /* Build configuration list for PBXNativeTarget "second summary" */;
+			buildPhases = (
+				F28B74AD14E807BD00F01F5C /* Sources */,
+				F28B74AE14E807BD00F01F5C /* Frameworks */,
+				F28B74AF14E807BD00F01F5C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "second summary";
+			productName = "second summary";
+			productReference = F28B74B114E807BD00F01F5C /* second summary */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F28B74A814E807BD00F01F5C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = F28B74AB14E807BD00F01F5C /* Build configuration list for PBXProject "second summary" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F28B74A614E807BD00F01F5C;
+			productRefGroup = F28B74B214E807BD00F01F5C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F28B74B014E807BD00F01F5C /* second summary */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F28B74AD14E807BD00F01F5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F28B74B914E807BD00F01F5C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F28B74BE14E807BD00F01F5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F28B74BF14E807BD00F01F5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F28B74C114E807BD00F01F5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "second summary/second summary-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F28B74C214E807BD00F01F5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "second summary/second summary-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F28B74AB14E807BD00F01F5C /* Build configuration list for PBXProject "second summary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F28B74BE14E807BD00F01F5C /* Debug */,
+				F28B74BF14E807BD00F01F5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F28B74C014E807BD00F01F5C /* Build configuration list for PBXNativeTarget "second summary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F28B74C114E807BD00F01F5C /* Debug */,
+				F28B74C214E807BD00F01F5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F28B74A814E807BD00F01F5C /* Project object */;
+}
